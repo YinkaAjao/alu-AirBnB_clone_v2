@@ -27,4 +27,4 @@ def do_deploy(archive_path):
         run('ln -s {}{}/ /data/web_static/current'.format(path, no_ext))
         return True
     except:
-        return False54.91.10.247
+        return False
